@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
 <!--seccion del head-->
+
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <title>Freelife Suplementos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/proyecto.css" />
@@ -34,7 +35,7 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                                    <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -42,15 +43,15 @@
                                         PRODUCTOS
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="pages/preworkout.html">PREWORKOUT</a></li>
-                                        <li><a class="dropdown-item" href="pages/proteinas.html">PROTEÍNAS</a></li>
-                                        <li><a class="dropdown-item" href="pages/aminoacidos.html">AMINOÁCIDOS</a></li>
-                                        <li><a class="dropdown-item" href="pages/creatinas.html">CREATINAS</a></li>
+                                        <li><a class="dropdown-item" href="../pages/preworkout.html">PREWORKOUT</a></li>
+                                        <li><a class="dropdown-item" href="../pages/proteinas.html">PROTEÍNAS</a></li>
+                                        <li><a class="dropdown-item" href="../pages/aminoacidos.html">AMINOÁCIDOS</a></li>
+                                        <li><a class="dropdown-item" href="../pages/creatinas.html">CREATINAS</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page"
-                                        href="pages/registro.html">REGISTRO</a>
+                                        href="../pages/registro.html">REGISTRO</a>
                                 </li>
                             </ul>
                             <form class="d-flex" role="search">
@@ -66,20 +67,65 @@
     </header>
     <main>
         <!--productos-->
-        <section class="productos1">
-                    <div class="productos2">
-                        <div class="h-1"><h1>Creatinas</h1></div>
-                    <article><img class="pre" src="../img/Ena/creatina-micronizada.jpg" alt="creatina-ena"> CREATINA mICRONIZADA  - ENA <img class="carrito1" src="../img/vectores/carrito-compra.png" alt="carrito-compra"></article>
-                    <article><img class="pre" src="../img/ON/creatina-micronizada.jpg" alt="creatina-on">creatina micronizada ON<img class="carrito1" src="../img/vectores/carrito-compra.png" alt="carrito-compra"> </article>
-                    <article><img class="pre" src="../img/Star/creatine_monohy-rate.jpg" alt="creatina">Creatina Monohidratada Star Nutrition  <img class="carrito1" src="../img/vectores/carrito-compra.png" alt="carrito-compra"></article>
-                    <article><img class="pre" src="../img/Xtrenght/xtrenght-creatina-1.png"
-                            alt="Creatina Xtrengh ">Creatina Xtrengh <img class="carrito1" src="../img/vectores/carrito-compra.png" alt="carrito-compra"></article>
-                    <article><img class="pre" src="../img/Mervick/creatina-mervick.png" alt="Creatina-mervick">Creatina Mervick<img class="carrito1" src="../img/vectores/carrito-compra.png" alt="carrito-compra"></article>
-                        </div>
-                        <div class="productos3">    
-                    <article><img class="carrito1" src="../img/vectores/carrito-compra.png" alt="carrito-compra"> Creatina Drive  Nutrex<img class="pre" src="../img/nutrex/creatina-drive.png" alt="Creatina-drive"> </article>
+        <section class="container productos1">
+            <div class="row">
+                <h1 class="col-12 titulo proteinas">Creatinas</h1>
+            </div>
+            <div class="row mt-5">
+                <div class="col-3 ml-5 card" style="width: 18rem;">
+                    <img src="../img/ON/creatina-micronizada.jpg" class="card-img-top" alt="creatina-gold">
+                    <div class="card-body">
+                        <h5 class="card-title">Creatina Optimun Nutrition</h5>
+                        <p class="card-text">Adquirila hoy!! </p>
+                        <a href="../pages/registro.html" class="btn btn-primary">comprar!</a>
                     </div>
-                </section>
+                </div>
+                <div class="col-3 ml-5 card" style="width: 18rem;">
+                    <img src="../img/Star/creatine_monohy-rate.jpg" class="card-img-top" alt="creatina-star">
+                    <div class="card-body">
+                        <h5 class="card-title">Creatina Star</h5>
+                        <p class="card-text">Adquirila hoy!!</p>
+                        <a href="../pages/registro.html" class="btn btn-primary">comprar!</a>
+                    </div>
+                </div>
+                <div class="col-3 ml-5 card" style="width: 18rem;">
+                    <img src="../img/Xtrenght/xtrenght-creatina-1.png" class="card-img-top"
+                        alt="creatina-xtrengh-advance">
+                    <div class="card-body">
+                        <h5 class="card-title">Creatina Xtrengh</h5>
+                        <p class="card-text">Adquirila hoy!!</p>
+                        <a href="../pages/registro.html" class="btn btn-primary">comprar!</a>
+                    </div>
+                </div>
+                <div class="col-3 ml-5 card" style="width: 18rem;">
+                    <img src="../img/Mervick/creatina-mervick.png" class="card-img-top" alt="creatina-mervick">
+                    <div class="card-body">
+                        <h5 class="card-title">creatina-mervick</h5>
+                        <p class="card-text">Adquirila hoy!!</p>
+                        <a href="../pages/registro.html" class="btn btn-primary">comprar!</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-3 ml-5 card" style="width: 18rem;">
+                    <img src="../img/Ena/creatina-micronizada.jpg" class="card-img-top" alt="creatina-ENA">
+                    <div class="card-body">
+                        <h5 class="card-title">Creatina ENA</h5>
+                        <p class="card-text">Adquirila hoy!!</p>
+                        <a href="../pages/registro.html" class="btn btn-primary">comprar!</a>
+                    </div>
+                </div>
+                <div class="col-3 ml-5 card" style="width: 18rem;">
+                    <img src="../img/nutrex/creatina-drive.png" class="card-img-top" alt="nutrex-creatina">
+                    <div class="card-body">
+                        <h5 class="card-title">Nutrex Creatina</h5>
+                        <p class="card-text">Adquirila hoy!!</p>
+                        <a href="../pages/registro.html" class="btn btn-primary">comprar!</a>
+                    </div>
+                </div>
+            </div>
+            </div>
     </main>
     </header>
     <footer>
