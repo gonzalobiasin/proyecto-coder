@@ -54,6 +54,10 @@ a {
     position: relative;
 } 
 
+.videitomagic2{
+    width: 100%;
+}
+
 .rectangulo-con-texto {
     width: 275px;
     height: 150px;
@@ -138,13 +142,16 @@ background-color: black;
     margin-top: 100px;
 }
 
-.footer {
+footer {
     color: white;
     font-size: large;
     align-items: center;
     background-color: black;
     font-size: medium;
     text-align: right;
+    display: flex;
+    align-items: center;
+    height: 13vh;
 }
 
 .copy {
@@ -154,6 +161,9 @@ background-color: black;
 }
 .lista-footer{
     display: flex;
+    justify-content: end;
+    width: 90%;
+
 }
 
 .img-fot {
@@ -321,4 +331,8 @@ background-color: black;
     .card contenido{
         padding: 15px;
         text-align: center;
+    }
+    .parrafo1{
+        display: flex;
+        text-align: flex;
     }
