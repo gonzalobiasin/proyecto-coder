@@ -152,15 +152,10 @@ background-color: black;
 }
 
 footer {
-    color: white;
-    font-size: large;
-    align-items: center;
     background-color: black;
-    font-size: medium;
-    text-align: right;
     display: flex;
     align-items: center;
-    height: 13vh;
+    height: 13vh; 
 }
 
 .copy {
