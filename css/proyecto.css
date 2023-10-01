@@ -351,5 +351,11 @@ footer {
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(2,fr);
         grid-gap: 20px;
+        place-content: center;
+    }
+
+    .tacho1{
+        display: grid;
+        place-content: center;
     }
 
