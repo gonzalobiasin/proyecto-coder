@@ -1,0 +1,13 @@
+@media only screen and (max-width: 768px) {
+  .destacados {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+  .rectangulo-con-texto {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+}

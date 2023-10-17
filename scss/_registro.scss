@@ -1,0 +1,58 @@
+/* formulario de registro */
+.formu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  /*iconos de busqueda en google*/
+  .r-g {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  .mano {
+    width: 54px;
+    height: 40px;
+  }
+  .google {
+    width: 40px;
+    height: 40px;
+  }
+  /* descripcion en formulario de registro*/
+  .contenedor-reg1 {
+    display: flex;
+    justify-content: center;
+  }
+  /* barras de subtitulos en  formularios de registro*/
+  .contenedor-reg2 {
+    display: flex;
+    background-color: #df2e38;
+    border-radius: 280px;
+    color: white;
+    justify-content: center;
+  }
+  /* segundo formulario de datos de envio */
+  .datos-envio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    flex-direction: column;
+  }
+  /* boton de regsitro*/
+  .boton1 {
+    display: flex;
+    justify-content: center;
+  }
+  /*medios de pago*/
+  .medios-de-pago {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    flex-direction: column;
+  }
