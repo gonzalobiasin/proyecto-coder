@@ -1,60 +1,70 @@
-/* video loop*/
-.video-container {
-position: relative;
-margin-top: 8%;
+main {
+  /* video loop*/
+  .video-container {
+    position: relative;
+    margin-top: 8%;
+    .rectangulo-con-texto {
+      width: 100%;
+      background-color: white;
+      color: black;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      .mensaje-descuento {
+        font-size: 25px;
+      }
+    }
+    .videitomagic2 {
+      width: 100%;
+    }
+    /*subtitulo carrousel*/
+    .subtitulo1 {
+      display: flex;
+      justify-content: center;
+      margin-top: 150px;
+    }
+    .carrousel-proteinas {
+      .carrouselexamplefade {
+        .carrousel-control-prev,
+        .carrousel-control-next {
+          /* botones a los lados del carrousel*/
+          .boton-icono {
+            background-color: black;
+          }
+        }
+      }
+    }
+    .destacados {
+      .tacho1 {
+        /*imagenes productos seleccionados*/
+        .imagen {
+          max-width: 175px;
+          height: auto;
+          margin-right: 10px;
+        }
+        /* descripcion de los productos selecionados*/
+        .figcaption {
+          max-width: 175px;
+          text-align: center;
+          font-size: 15px;
+          color: rgb(23, 18, 19);
+        }
+      }
+    }
+  }
 }
 
-.videitomagic2 {
-width: 100%;
+.imagenCarrusel {
+  width: 100%;
+}
+/* imagen motivacional*/
+.imagen-motivadora1 {
+  margin-top: 100px;
+  box-shadow: 0 0 20px;
 }
 
-.rectangulo-con-texto {
-width: 100%;
-background-color: white;
-color: black;
-text-align: center;
-text-decoration: none;
-cursor: pointer;
-display: flex;
-justify-content: center;
-}
-
-.mensaje-descuento {
-font-size: 25px;
-}
-/*subtitulo carrousel*/
-.subtitulo1 {
-    display: flex;
-    justify-content: center;
-    margin-top: 150px;
-  }
-  /*imagenes productos seleccionados*/
-  .imagen {
-    max-width: 175px;
-    height: auto;
-    margin-right: 10px;
-  }
-  /* descripcion de los productos selecionados*/
-  .figcaption {
-    max-width: 175px;
-    text-align: center;
-    font-size: 15px;
-    color: rgb(23, 18, 19);
-  }
-  
-  /* botones a los lados del carrousel*/
-  .boton-icono {
-    background-color: black;
-  }
-  .imagenCarrusel {
-    width: 100%;
-  }
-  /* imagen motivacional*/
-  .imagen-motivadora1 {
-    margin-top: 100px;
-    box-shadow: 0 0 20px;
-  }
-  
 /* cuadro de descripcion de meta de la empresa*/
 .contenedor8 {
   background-color: black;

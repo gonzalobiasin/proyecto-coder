@@ -1,19 +1,6 @@
 @charset "UTF-8";
-/*contenedor del header*/
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@400;700&family=Roboto:ital,wght@1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@400;700&family=Roboto:ital,wght@1,700&display=swap");
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.contenedor-banner {
-  background-color: black;
-  justify-content: center;
-}
-
 /*GENERALES*/
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@400;700&family=Roboto:ital,wght@1,700&display=swap");
 /*fuentes de google*/
 * {
   margin: 0;
@@ -32,39 +19,21 @@ a {
   color: inherit;
 }
 
-/*subtitulo carrousel*/
-.subtitulo1 {
+.container {
   display: flex;
-  justify-content: center;
-  margin-top: 150px;
+  flex-direction: column;
+  align-items: center;
 }
 
-/*imagenes productos seleccionados*/
-.imagen {
-  max-width: 175px;
-  height: auto;
-  margin-right: 10px;
+main {
+  /* video loop*/
 }
-
-/* descripcion de los productos selecionados*/
-.figcaption {
-  max-width: 175px;
-  text-align: center;
-  font-size: 15px;
-  color: rgb(23, 18, 19);
-}
-
-/* video loop*/
-.video-container {
+main .video-container {
   position: relative;
   margin-top: 8%;
+  /*subtitulo carrousel*/
 }
-
-.videitomagic2 {
-  width: 100%;
-}
-
-.rectangulo-con-texto {
+main .video-container .rectangulo-con-texto {
   width: 100%;
   background-color: white;
   color: black;
@@ -74,14 +43,39 @@ a {
   display: flex;
   justify-content: center;
 }
-
-.mensaje-descuento {
+main .video-container .rectangulo-con-texto .mensaje-descuento {
   font-size: 25px;
 }
-
-/* botones a los lados del carrousel*/
-.boton-icono {
+main .video-container .videitomagic2 {
+  width: 100%;
+}
+main .video-container .subtitulo1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+main .video-container .carrousel-proteinas .carrouselexamplefade .carrousel-control-prev,
+main .video-container .carrousel-proteinas .carrouselexamplefade .carrousel-control-next {
+  /* botones a los lados del carrousel*/
+}
+main .video-container .carrousel-proteinas .carrouselexamplefade .carrousel-control-prev .boton-icono,
+main .video-container .carrousel-proteinas .carrouselexamplefade .carrousel-control-next .boton-icono {
   background-color: black;
+}
+main .video-container .destacados .tacho1 {
+  /*imagenes productos seleccionados*/
+  /* descripcion de los productos selecionados*/
+}
+main .video-container .destacados .tacho1 .imagen {
+  max-width: 175px;
+  height: auto;
+  margin-right: 10px;
+}
+main .video-container .destacados .tacho1 .figcaption {
+  max-width: 175px;
+  text-align: center;
+  font-size: 15px;
+  color: rgb(23, 18, 19);
 }
 
 .imagenCarrusel {
@@ -92,12 +86,6 @@ a {
 .imagen-motivadora1 {
   margin-top: 100px;
   box-shadow: 0 0 20px;
-}
-
-/* tamaño de las tarjetas en paginas*/
-.texto-y-botones {
-  margin-top: 60px;
-  font-size: 25px;
 }
 
 /* cuadro de descripcion de meta de la empresa*/
@@ -154,6 +142,12 @@ footer {
   cursor: pointer;
 }
 
+/*contenedor del header*/
+.contenedor-banner {
+  background-color: black;
+  justify-content: center;
+}
+
 /* formulario de registro */
 .formu {
   display: flex;
@@ -182,7 +176,7 @@ footer {
 
 /* descripcion en formulario de registro*/
 .contenedor-reg1 {
-  display: flex;
+  /*display: flex;*/
   justify-content: center;
 }
 
@@ -219,6 +213,12 @@ footer {
   margin-bottom: 50px;
   margin-top: 100px;
   flex-direction: column;
+}
+
+/* tamaño de las tarjetas en paginas*/
+.texto-y-botones {
+  margin-top: 60px;
+  font-size: 25px;
 }
 
 /* productos en tarjetas*/
