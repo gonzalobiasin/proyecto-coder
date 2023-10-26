@@ -1,9 +1,6 @@
 /* formulario de registro */
 .formu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+@extend %display-justy-alain-flex;
   margin-bottom: 100px;
   margin-top: 100px;
 }
@@ -26,41 +23,33 @@
 
 /* descripcion en formulario de registro*/
 .contenedor-reg1 {
-  display: flex;
-  justify-content: center;
+@extend %display-justi;
 }
 
 /* barras de subtitulos en  formularios de registro*/
 .contenedor-reg2 {
-  display: flex;
+@extend %display-justy;
   background-color: #df2e38;
   border-radius: 280px;
   color: white;
-  justify-content: center;
+
 }
 
 /* segundo formulario de datos de envio */
 .datos-envio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %display-justy-alain-flex;
   margin-bottom: 50px;
-  margin-top: 100px;
-  flex-direction: column;
+  margin-top: 100px; 
 }
 
 /* boton de regsitro*/
 .boton1 {
-  display: flex;
-  justify-content: center;
+  @extend %display-justy;
 }
 
 /*medios de pago*/
 .medios-de-pago {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %display-justy-alain-flex;
   margin-bottom: 50px;
   margin-top: 100px;
-  flex-direction: column;
 }
