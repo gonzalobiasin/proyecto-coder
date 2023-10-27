@@ -1,18 +1,16 @@
-%display-place-content{
+%display-place-content {
     display: grid;
-place-content: center;
+    place-content: center;
 }
-%display-justy-alain-flex{
+
+%display-justy-alain-flex {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-%display-justi{
-    display: flex;
-    justify-content: center;
-}
-%display-justy{
+
+%display-justy {
     display: flex;
     justify-content: center;
 }

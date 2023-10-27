@@ -47,13 +47,11 @@ a {
 main {
   /* video loop*/
 }
-
 main .video-container {
   position: relative;
   margin-top: 8%;
   /*subtitulo carrousel*/
 }
-
 main .video-container .rectangulo-con-texto {
   width: 100%;
   background-color: white;
@@ -64,42 +62,34 @@ main .video-container .rectangulo-con-texto {
   display: flex;
   justify-content: center;
 }
-
 main .video-container .rectangulo-con-texto .mensaje-descuento {
   font-size: 25px;
 }
-
 main .video-container .videitomagic2 {
   width: 100%;
 }
-
 main .video-container .subtitulo1 {
   display: flex;
   justify-content: center;
   margin-top: 150px;
 }
-
 main .video-container .carrousel-proteinas .carrouselexamplefade .carrousel-control-prev,
 main .video-container .carrousel-proteinas .carrouselexamplefade .carrousel-control-next {
   /* botones a los lados del carrousel*/
 }
-
 main .video-container .carrousel-proteinas .carrouselexamplefade .carrousel-control-prev .boton-icono,
 main .video-container .carrousel-proteinas .carrouselexamplefade .carrousel-control-next .boton-icono {
   background-color: black;
 }
-
 main .video-container .destacados .tacho1 {
   /*imagenes productos seleccionados*/
   /* descripcion de los productos selecionados*/
 }
-
 main .video-container .destacados .tacho1 .imagen {
   max-width: 175px;
   height: auto;
   margin-right: 10px;
 }
-
 main .video-container .destacados .tacho1 .figcaption {
   max-width: 175px;
   text-align: center;
@@ -151,7 +141,6 @@ footer {
   align-items: center;
   height: 13vh;
 }
-
 footer .logoWhatsapp {
   position: fixed;
   bottom: 100px;
@@ -324,6 +313,4 @@ footer .logoWhatsapp {
     width: 100%;
   }
 }
-
-
 /*# sourceMappingURL=style.css.map */
