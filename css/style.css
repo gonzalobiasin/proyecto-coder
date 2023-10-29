@@ -82,6 +82,7 @@ main .video-container .subtitulo1 {
 main .video-container .carrousel-proteinas .carrouselexamplefade .carrousel-control-prev,
 main .video-container .carrousel-proteinas .carrouselexamplefade .carrousel-control-next {
   /* botones a los lados del carrousel*/
+  color: black;
 }
 
 main .video-container .carrousel-proteinas .carrouselexamplefade .carrousel-control-prev .boton-icono,

@@ -73,14 +73,6 @@ main .video-container .subtitulo1 {
   justify-content: center;
   margin-top: 150px;
 }
-main .video-container .carrousel-proteinas .carrouselexamplefade .carrousel-control-prev,
-main .video-container .carrousel-proteinas .carrouselexamplefade .carrousel-control-next {
-  /* botones a los lados del carrousel*/
-}
-main .video-container .carrousel-proteinas .carrouselexamplefade .carrousel-control-prev .boton-icono,
-main .video-container .carrousel-proteinas .carrouselexamplefade .carrousel-control-next .boton-icono {
-  background-color: black;
-}
 main .video-container .destacados .tacho1 {
   /*imagenes productos seleccionados*/
   /* descripcion de los productos selecionados*/
