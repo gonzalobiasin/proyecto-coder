@@ -79,23 +79,16 @@ main .video-container .subtitulo1 {
   margin-top: 150px;
 }
 
-main .video-container .carrousel-proteinas .carrouselexamplefade .carrousel-control-prev,
-main .video-container .carrousel-proteinas .carrouselexamplefade .carrousel-control-next {
-  /* botones a los lados del carrousel*/
-  color: black;
-}
-
-main .video-container .carrousel-proteinas .carrouselexamplefade .carrousel-control-prev .boton-icono,
-main .video-container .carrousel-proteinas .carrouselexamplefade .carrousel-control-next .boton-icono {
-  background-color: black;
-}
-
 main .video-container .destacados .tacho1 {
+  display: flex;
+  justify-content: center;
   /*imagenes productos seleccionados*/
   /* descripcion de los productos selecionados*/
 }
 
 main .video-container .destacados .tacho1 .imagen {
+  display: flex;
+  justify-content: center;
   max-width: 175px;
   height: auto;
   margin-right: 10px;
@@ -106,6 +99,13 @@ main .video-container .destacados .tacho1 .figcaption {
   text-align: center;
   font-size: 15px;
   color: rgb(23, 18, 19);
+}
+
+.carousel1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
 }
 
 .imagenCarrusel {

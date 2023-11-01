@@ -74,10 +74,14 @@ main .video-container .subtitulo1 {
   margin-top: 150px;
 }
 main .video-container .destacados .tacho1 {
+  display: flex;
+  justify-content: center;
   /*imagenes productos seleccionados*/
   /* descripcion de los productos selecionados*/
 }
 main .video-container .destacados .tacho1 .imagen {
+  display: flex;
+  justify-content: center;
   max-width: 175px;
   height: auto;
   margin-right: 10px;
@@ -87,6 +91,13 @@ main .video-container .destacados .tacho1 .figcaption {
   text-align: center;
   font-size: 15px;
   color: rgb(23, 18, 19);
+}
+
+.carousel1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
 }
 
 .imagenCarrusel {
