@@ -181,6 +181,10 @@ footer .logoWhatsapp {
   margin-top: 100px;
 }
 
+.label {
+  margin-bottom: 50px;
+}
+
 /*iconos de busqueda en google*/
 .r-g {
   display: flex;
@@ -210,7 +214,7 @@ footer .logoWhatsapp {
   margin-top: 100px;
 }
 
-/* boton de regsitro*/
+/* boton de registro*/
 /*medios de pago*/
 .medios-de-pago {
   margin-bottom: 50px;

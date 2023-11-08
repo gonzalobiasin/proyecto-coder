@@ -188,8 +188,11 @@ footer .logoWhatsapp {
 .formu {
   margin-bottom: 100px;
   margin-top: 100px;
+  
 }
-
+.label{
+  margin-bottom: 15px;
+}
 /*iconos de busqueda en google*/
 .r-g {
   display: flex;
@@ -206,6 +209,10 @@ footer .logoWhatsapp {
   height: 40px;
 }
 
+.contenedor-reg1{
+  margin-left: 100px;
+  margin-right: 100px;
+}
 /* barras de subtitulos en  formularios de registro*/
 .contenedor-reg2 {
   background-color: #df2e38;
@@ -284,6 +291,7 @@ footer .logoWhatsapp {
   cursor: default;
   transition: all 1000ms ease;
   margin-bottom: 50px;
+  flex-direction: column;
 }
 
 .card:hover {
@@ -304,6 +312,11 @@ footer .logoWhatsapp {
 .parrafo1 {
   display: flex;
   text-align: flex;
+  justify-content: center;
+}
+.card-body{
+  flex-direction: column;
+  text-align: center;
 }
 
 .destacados {
